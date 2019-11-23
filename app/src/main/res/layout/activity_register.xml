@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/login_regist_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstopen.Register">
+
+    <ScrollView
+        android:scrollIndicators="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/register_container"
+            android:padding="24dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:layout_height="160dp" >
+                <TextView
+                    android:id="@+id/register_photo_btn"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@android:color/white"
+                    android:text="SELECT PHOTO"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:translationZ="-1dp"
+                    android:id="@+id/register_photo"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/ic_account"
+                    app:civ_border_color="@android:color/black"
+                    app:civ_border_width="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="24dp"
+                android:background="@drawable/login_editext_container"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_margin="6dp"
+                    android:inputType="text"
+                    android:id="@+id/register_username"
+                    android:hint="Username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"/>
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/register_email"
+                    android:layout_margin="6dp"
+                    android:hint="Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"/>
+                <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/register_password"
+                    android:layout_margin="6dp"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <Button
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/login_editext_btn"
+                android:id="@+id/register_btn"
+                android:textSize="18dp"
+                android:text="Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/register_log"
+                android:layout_marginTop="12dp"
+                android:textColor="@android:color/black"
+                android:text="Back to Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <me.itangqi.waveloadingview.WaveLoadingView
+        android:visibility="gone"
+        android:layout_margin="32dp"
+        android:id="@+id/register_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:wlv_borderColor="@color/colorAccent"
+        app:wlv_borderWidth="1dp"
+        app:wlv_progressValue="0"
+        app:wlv_shapeType="circle"
+        app:wlv_titleTopColor="@android:color/black"
+        app:wlv_titleTopSize="24sp"
+        app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+        app:wlv_titleCenterStrokeWidth="3dp"
+        app:wlv_titleCenterColor="@android:color/white"
+        app:wlv_titleCenterSize="48sp"
+        app:wlv_titleBottomSize="24sp"
+        app:wlv_waveAmplitude="70"
+        app:wlv_waveColor="@color/colorAccent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

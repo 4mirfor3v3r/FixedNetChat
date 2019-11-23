@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "615581337249",
+    "firebase_url": "https://fixed-netchat.firebaseio.com",
+    "project_id": "fixed-netchat",
+    "storage_bucket": "fixed-netchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615581337249:android:13f16beea17dba8a4252e0",
+        "android_client_info": {
+          "package_name": "com.amier.fixednetchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615581337249-142r1uhfbjd2fj58iu67evfpi3dm4lnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amier.fixednetchat",
+            "certificate_hash": "b3c3dc5309e4e9dc3ef381dc754ff0b3a086f59c"
+          }
+        },
+        {
+          "client_id": "615581337249-ac51715ptcjjbkliim0fmg28jt7lbv4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaC7cibdry_xKu5EFI9_rp4qR7exbzfGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615581337249-ac51715ptcjjbkliim0fmg28jt7lbv4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

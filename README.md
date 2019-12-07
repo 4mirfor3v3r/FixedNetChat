@@ -1,5 +1,5 @@
 # FixedNetChat
-  Simple kotlin online chatting app
+  Simple kotlin online chatting app with firebase as backend
   
 
 ## Preview App

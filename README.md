@@ -2,7 +2,16 @@
 
 # Demo App
 
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+![](https://raw.githubusercontent.com/4mirfor3v3r/FixedNetChat/master/test0.gif)  |  ![](https://raw.githubusercontent.com/4mirfor3v3r/FixedNetChat/master/ahmad.gif)
+
+## Features
+- [x] Login
+- [x] Register
+- [x] Select Profile Image
+- [x] Realtime Chat
+- [ ] Offline Messages
+- [ ] Send Voice messages
+- [x] Logout
 
 ## Test apk
 #### http://bit.ly/Kotlin-NetChat
